@@ -1,0 +1,76 @@
+node_modules
+**/node_modules
+npm-debug.log
+.DS_Store
+dist
+build
+.idea
+yarn-error.log
+.cache
+.vs/
+docs-build/
+
+#MacOS speciffic
+.icloud
+*.icloud
+
+# IDE/Editor GraphQL Extensions
+graphql.*.json
+.gqlconfig
+
+.env
+
+# Relay modern
+__generated__/
+
+# Flow log
+flow.log
+
+# Jest junit file
+coverage
+junit.xml
+
+# Random things to ignore
+ignore/
+package-lock.json
+yarn-offline-cache
+
+hard-source-cache/
+**/hard-source-cache/
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+.parcel-cache
+
+.vscode
+!.vscode/extensions.json
+
+dist-storybook
+dist-dll
+
+report.*.json
+test-results/
+lerna-debug.log
+
+.cache
+.webpack
+
+.jest-cache
+.eslintcache
+
+.turbo
+build/**
+dist/**
+.next/**
+
+build-server
+
+packages/email/types
+packages/ui/types
+lib/
+__diff_output__
+
+tmp
+.swc
